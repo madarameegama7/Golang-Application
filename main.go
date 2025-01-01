@@ -1,5 +1,6 @@
 package main
 
+//this fmt package is used to format strings and print in console
 import "fmt"
 
 func main(){
@@ -45,6 +46,21 @@ func main(){
     scoreThree := 1.5
 
 	fmt.Println(scoreOne, scoreTwo, scoreThree)
+
+	//Print
+	fmt.Print("hello, ")
+    fmt.Print("world! \n")
+	fmt.Print("world! \n")
+
+	age := "22"
+	name := "madara"
+	fmt.Println("My age is", age, "and my name is", name)
+
+	//Printf-formatted strings %_ = format specifier
+	fmt.Printf("my age is %v and my name is %v \n", age, name)
+	fmt.Printf("my age is %q and my name is %q \n", age, name)
+	fmt.Printf("age is of type %T", age)
+	
 
 
 
